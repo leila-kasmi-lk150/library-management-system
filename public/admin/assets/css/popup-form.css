@@ -1,0 +1,139 @@
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.9);
+  background: rgba(195, 211, 250, 0.9);
+  position: fixed;
+  top: 0;
+  right: -105%;
+  z-index: 10000;
+  height: 100%;
+  width: 100%;
+}
+
+.form-container.active {
+  right: 0;
+}
+
+.form-container form {
+  background: #fff;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  width: 38%;
+  padding: 35px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  margin: 110px;
+}
+
+.form-container #close-btn {
+  position: absolute;
+  top: 1.5rem;
+  right: 2.5rem;
+  font-size: 5rem;
+  color: #444;
+  cursor: pointer;
+}
+
+.input {
+  display: block;
+  border: 2px solid #ccc;
+  width: 75%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.add {
+  /* float: right; */
+  background: #555;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  /* margin-right: 10px; */
+  border: none;
+  /* margin-top: -10px; */
+  /* margin-right: 82px; */
+}
+.add:hover {
+  opacity: 0.7;
+  background: #2e6da4;
+  color: wheat;
+}
+h2 {
+  margin-bottom: 20px;
+}
+
+/* delet type  */
+
+.form-container-delet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.9);
+  background: rgba(195, 211, 250, 0.9);
+  position: fixed;
+  top: 0;
+  right: -105%;
+  z-index: 10000;
+  height: 100%;
+  width: 100%;
+}
+
+.form-container-delet.active {
+  right: 0;
+}
+
+.form-container-delet form {
+  background: #fff;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  width: 38%;
+  padding: 35px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  margin: 110px;
+}
+
+.form-container-delet #close-btn-delet {
+  position: absolute;
+  top: 1.5rem;
+  right: 2.5rem;
+  font-size: 5rem;
+  color: #444;
+  cursor: pointer;
+}
+
+.input {
+  display: block;
+  border: 2px solid #ccc;
+  width: 75%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.add {
+  /* float: right; */
+  background: #555;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  /* margin-right: 10px; */
+  border: none;
+  /* margin-top: -10px; */
+  /* margin-right: 82px; */
+}
+.add:hover {
+  opacity: 0.7;
+  background: #2e6da4;
+  color: wheat;
+}
+h2 {
+  margin-bottom: 20px;
+}
+#input-row{
+  display: flex;
+}
+#input-row label{
+  margin-left: 5px;
+}

@@ -1,0 +1,250 @@
+:root {
+	--blue: #4682b4;
+	--white: #fff;
+	--gray: #f5f5f5;
+	--black1: #222;
+	--black2: #999;
+  }
+.search-form{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  
+   }
+  a{
+    text-decoration: none;
+  }
+  button a{
+    color: white;
+  }
+  .search-form form{
+    background: url("../imgs/search.svg");
+    background-repeat: no-repeat;
+    background-position: 10px 50%;
+  }
+  .search-form input{
+    border: 2px solid rgba(0,0,0,.1);
+    font-size: 25px;
+    padding:0 1.2rem;
+    width:30%;
+    height:45px;
+    text-transform: none;
+    color:#444;
+  }
+  .search-form select{
+    border: 2px solid rgba(0,0,0,.1);
+    font-size: 20px;
+    width:7%;
+    height:45px;
+    text-transform: none;
+    color:#444;
+  }
+
+.showBook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    width: 60%;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 22px;
+}
+.showBook form{
+    display: flex;
+    padding-top: 22px;
+}
+.showBook form button{
+    border-radius: 12px;
+    height: 55px;
+    width: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(4, 148, 52);
+    font-weight: bold;
+}
+.showBook form button span{
+    margin-left: 5px;
+}
+.showBook form button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.showBook .img{
+    border: 2px solid rgba(0,0,0,.1);
+    margin-right:22px ;
+}
+.showBook .name{
+    margin-right: 10px;
+    background-color: #893589;
+}
+.showBook .name h4{
+    color: #1c4966;
+}
+.showBook .view a{
+    text-decoration: none;
+    color: #000;
+}
+.showBook .view a:hover{
+    color: rgb(241, 170, 17);
+    color: rgb(4, 148, 52);
+}
+.showBook .view{
+    margin-left: 55px;
+    font-size: 40px;
+}
+.viewButton{
+  background-color: rgb(4, 148, 52);
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.viewButton:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.cardBox {
+    position: relative;
+    width: 80%;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+  
+  .cardBox .card {
+    position: relative;
+    /* background: var(--white); */
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+  }
+  
+  .cardBox a{
+    text-decoration: none;
+    position: relative;
+    background: var(--white);
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .cardBox .card .numbers {
+    position: relative;
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--blue);
+  }
+  
+  .cardBox .card .cardName {
+    color: black;
+    font-size: 1.1rem;
+    margin-top: 5px;
+  }
+  
+  .cardBox .card .iconBx {
+    font-size: 30px;
+    color: var(--black2);
+    padding: 8px;
+  }
+  
+  /*.cardBox .card:hover {
+    background: var(--blue);
+  }*/
+  .cardBox .card:hover .numbers,
+  .cardBox .card:hover .cardName,
+  .cardBox .card:hover .iconBx,
+  .cardBox .card:hover a {
+    color: var(--white);
+  }
+ 
+.card a{
+    text-decoration: none;
+}
+#go_to{
+    position: relative;
+    background: var(--white);
+    padding: 30px;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 10, 0.151);
+}
+#go_to:hover{
+    background: var(--blue);
+}
+#go_to div{
+    margin: 20px;
+}
+
+.viewTab{
+  width: 70%;
+  background-color: #ddd;
+  padding: 50px;
+}
+
+.search-form button{
+    border: 2px solid rgba(0,0,0,.1);
+    font-size: 25px;
+    padding:0 1.2rem;
+    width:5%;
+    height:45px;
+    text-transform: none;
+    color:#444;
+}
+
+
+
+/* Style the search container */
+.search-container {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 20px; */
+  width: 30%;
+  height: 4%;
+  margin-top: 27px;
+}
+
+/* Style the search input */
+.search-container input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  width: 70%;
+  color: black;
+  border: #96a6dd 2px solid;
+}
+
+/* Style the search button */
+.search-container button {
+  /* float: right; */
+  border: #000 2px solid;
+  padding: 10px 15px;
+  background: #96a6dd;
+  font-size: 17px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+/* Add hover effect to the search button */
+.search-container button:hover {
+  background: #ccc;
+}
+
+/* Style the search icon */
+.search-container button i {
+  color: black;
+}

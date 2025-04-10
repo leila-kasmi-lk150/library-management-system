@@ -1,0 +1,446 @@
+/* ======================= Cards ====================== */
+.cardBox {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+  }
+
+  .cardBox .card {
+    position: relative;
+    background: var(--white);
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  }
+  .cardBox .card .numbers {
+    position: relative;
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--blue);
+  }
+  
+  .cardBox .card .cardName {
+    color: var(--black2);
+    font-size: 1.1rem;
+    margin-top: 5px;
+  }
+  .cardBox .card .iconBx {
+    font-size: 30px;
+    color: var(--black2);
+    padding: 8px;
+  }
+  
+  .cardBox .card:hover {
+    background: var(--blue);
+  }
+  .cardBox .card:hover .numbers,
+  .cardBox .card:hover .cardName,
+  .cardBox .card:hover .iconBx {
+    color: var(--white);
+  }
+
+
+#search{
+  border: #b8bdcc 1px solid;
+  border-radius: 10px;
+  margin-left: 35px;
+  width: 150px;
+  height: 66px;
+  background-color: #ddd;
+  padding-left: 15px;
+  font-size: 22px;
+}
+#search input{
+    background-color: #ddd;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 15px;
+    height: 100%;
+    width: 150px;
+    font-size: 20px;
+}
+#myTable{
+  display: block;
+}
+  /* first table  */
+  .firstTab{
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 20px;
+  }
+  .rightTab{
+    border-left: #2e6da4 5px solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 50%;
+  }
+  .leftTab{
+    width: 50%;
+    
+  }
+  .linkTab{
+    
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    width: 400px;
+    margin: 50px;
+  }
+  .linkTab a{
+    text-decoration: none;
+    color: white;
+  }
+  #link1{
+    background-color: #ff0000;
+    /* background-color: #ff69b4; */
+  }
+  #link2{
+    background-color: #ff7f00;
+  }
+  #link1:hover{
+    color: #fff;
+    background-color: #000;
+  }
+  #link2:hover{
+    color: #fff;
+    background-color: #000;
+  }
+
+  .formTab{
+    width: 100%;
+  }
+  
+  .formTab input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 75%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .formTab label {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+  }
+  .formTab select{
+    display: block;
+    border: 2px solid #ccc;
+    width: 75%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .formTab #borrow{
+    display: block;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #40754C;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .firstTab #borrow:hover{
+    background-color: #000;
+    color: #fff;
+  }
+
+  /* booorrow boook */
+  .titleDiv{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #87ceeb;
+    background-color: #40e0d0;
+    background-color:  #6fa8dc;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  .titleDiv a{
+    text-decoration: none;
+    color: black;
+  }
+  .titleDiv a:hover{
+    color: red;
+  }
+  .MainTab{
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .MainTab th {
+    text-align: left;
+    background-color:  #d9edf7;
+    color: #31708f;
+    padding: 20px;
+  }
+  .MainTab tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .MainTab tr:hover {background-color: #ddd;}
+  
+  
+  .MainTab td {
+    padding: 20px;
+    font-weight: bold;
+  }
+  /* table css  */
+
+.links{
+  width: 100%;
+}
+.left-section {
+  float: left;
+  width: 50%;
+}
+
+.right-section {
+  float: right;
+  width: 50%;
+}
+
+.typeName{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    padding: 20px;
+    font-weight: bold;
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    text-transform: uppercase;
+      font-size: 25px;
+}
+#add_book{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    margin: 25px;
+    text-decoration: none;
+    padding: 6px 12px;
+    /* margin-top: 100px; */
+    font-size: 14px;
+    font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+#export{
+  color: #fff;
+  background-color: #40754C;
+  margin: 25px;
+  text-decoration: none;
+  padding: 6px 12px;
+  /* margin-top: 100px; */
+  font-size: 14px;
+  font-weight: normal;
+text-align: center;
+white-space: nowrap;
+cursor: pointer;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+#add_type{
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  margin: 25px;
+  text-decoration: none;
+  padding: 6px 12px;
+  /* margin-top: 100px; */
+  font-size: 14px;
+  font-weight: normal;
+text-align: center;
+white-space: nowrap;
+cursor: pointer;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+.viewBook button{
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.editSpan{
+  color: white;
+  background-color: rgb(241, 170, 17);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.btn-edit{
+  color: white;
+  background-color: rgb(241, 170, 17);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.deletSpan{
+    color: white;
+    background-color: rgb(241, 17, 17);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+
+.btn-danger{
+    color: white;
+    background-color: rgb(241, 17, 17);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.btn-danger:hover{
+  background-color: #000;
+}
+
+.viewSpan{
+    color: white;
+    background-color: rgb(4, 148, 52);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  
+}
+.btn-view:hover{
+  background-color: #000;
+}
+.btn-view{
+  color: white;
+  background-color: rgb(4, 148, 52);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+}
+.error {
+  background: #F2DEDE;
+  color: #A94442;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+.success {
+  background: #D4EDDA;
+  color: #40754C;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+
+.search-box {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin: 25px ;
+}
+
+.select-box {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #444;
+}
+
+.search-input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #444;
+}
+
+
+
+
+
+  /* Style the search container */
+  .search-container {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; */
+    width: 30%;
+  }
+  
+  /* Style the search input */
+  .search-container input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 70%;
+    color: black;
+    border: #96a6dd 2px solid;
+  }
+  
+  /* Style the search button */
+  .search-container button {
+    /* float: right; */
+    border: #000 2px solid;
+    padding: 10px 15px;
+    background: #96a6dd;
+    font-size: 17px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  /* Add hover effect to the search button */
+  .search-container button:hover {
+    background: #ccc;
+  }
+  
+  /* Style the search icon */
+  .search-container button i {
+    color: black;
+  }
+  
