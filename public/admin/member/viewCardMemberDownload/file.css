@@ -1,0 +1,21 @@
+body{
+  background-color: #ddd;
+}
+th{
+  background-color: #31708f;
+  padding: 12px;
+}
+th p{display: flex;}
+th p span{
+  padding-left: 5px;
+}
+img{
+  border-radius: 50%;
+}
+td{
+  padding: 9px;
+}
+table {
+border-collapse: collapse;
+border: 2px solid black;
+}
